@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.roboto- {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	margin:0
+}
+header {
+	width: 100%;
+	height: 60px;
+	background-color: lightgrey;
+	border-bottom: 1px solid lightgrey
+}
+.menu {
+	padding-top:20px 
+}
+.menu ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:flex;
+}
+.menu ul li a {
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #555555;
+	border-radius: 20px
+}
+.menuul li a:hover {
+	background-color: darkred;
+	color: white;
+}
+#slide .owl-dots{
+	position: absolute;
+	bottom: 10px;
+	left: 45%;
+}
+#slide .owl-dots .owl-dot span{
+	width: 12px;
+	height: 12px;
+}
+#slide .owl-nav{
+	position: absolute;
+	left: 0px;
+	top: 40%;
+	width: 100%;
+}
+#slide .owl-nav [class*='owl-'] {
+font-size: 60px; /*background:rgba (255,255,255, •5) ;border :1px solid #fff; */ color: #F78F91
+}
+#slide .owl-nav .owl-next {
+position: absolute;
+right: 5%
+}
+#slide .owl-nav .owl-prev{
+position: absolute;
+left: 5%;
+}
+#slide .owl-nav [class*='owl-']:hover {
+background: none;
+border: none;
+color: darkred;
+text-decoration: none;
+}
+.main {
+	width: 100%;
+	min-height: 500px;
+}
+.text-do {
+	color: darkred;
+}
+aside ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+aside ul li {
+	border-bottom: 1px solid #C0C0C0
+}
+aside ul li a {
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	color: #666666;
+	text-transform: capitalize;
+}
+aside ul li a:hover{
+	background-color: darkred;
+	color: white;
+}
+.sp{
+	font-size: 20px;
+	font-weight: bold;
+	color: darkred
+}
+.text-den{
+	color: #2D2D2D
+}
+footer{
+	width: 100%;
+	min-height: 300px;
+	background-color:#D9D1D1;
+}
+footer a{
+	color:#474747
+}
+footer a:hover{
+	color:darkred
+}
+.bg-do{
+	width: 100%;
+	min-height:300px;
+	background-color: darkred;
+	text-align: center;
+}
+footer ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+	display:flex;
+	flex-direction: column;
+}
+footer ul li a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+footer ul li a:hover{
+	color: white;
+}
